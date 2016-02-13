@@ -1,0 +1,25 @@
+{
+  "name": "order-of-growth",
+  "version": "1.0.0",
+  "description": "Functions' order of growth calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chikh/order-of-growth.git"
+  },
+  "keywords": [
+    "function",
+    "math",
+    "algorithms",
+    "bigO"
+  ],
+  "author": "Georgy Chikhladze <georgiy.chikhladze@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chikh/order-of-growth/issues"
+  },
+  "homepage": "https://github.com/chikh/order-of-growth#readme"
+}
