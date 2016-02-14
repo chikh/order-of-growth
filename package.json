@@ -2,7 +2,7 @@
   "name": "order-of-growth",
   "version": "1.0.0",
   "description": "Functions' order of growth calculator",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/chikh/order-of-growth/issues"
   },
-  "homepage": "https://github.com/chikh/order-of-growth#readme"
+  "homepage": "https://github.com/chikh/order-of-growth#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
