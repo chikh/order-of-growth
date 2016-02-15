@@ -21,12 +21,12 @@ describe("Order of growth", () => {
     tools.orderOfGrowth(100, 100*100, 1000, 1000*1000).should.equal(2);
   });
 
-  it("should be about 0.18 for binary logarithmic growth", () => {
-    tools.orderOfGrowth(100, Math.log2(100), 1000, Math.log2(1000)).should.within(0.1760, 0.1761);
+  it("should be about 0.09 for binary logarithmic growth and 10k - 1M interval", () => {
+    tools.orderOfGrowth(10000, Math.log2(10000), 1000000, Math.log2(1000000)).should.within(0.0870, 0.0881);
   });
 
-  it("should be about 1.18 for N*log(N) growth", () => {
-    tools.orderOfGrowth(100, 100 * Math.log2(100), 1000, 1000 * Math.log2(1000)).should.within(1.1760, 1.1761);
+  it("should be about 1.09 for N*log(N) growth and 10k - 1M interval", () => {
+    tools.orderOfGrowth(10000, 10000 * Math.log2(10000), 1000000, 1000000 * Math.log2(1000000)).should.within(1.0870, 1.0881);
   });
 });
 
