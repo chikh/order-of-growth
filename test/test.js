@@ -31,7 +31,7 @@ describe("Order of growth", () => {
 });
 
 describe("Running time", () => {
-  it("should be measured correclty", () => {
+  it("should be measured correctly", () => {
     tools.runningTimeOf(() => sleep(0.8)).should.within(799, 801);
   });
 });
